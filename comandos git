@@ -1,0 +1,37 @@
+git config --global user.email "correo" 
+git config --global user.name "usuario"
+git config --global code.editor "gedit"
+git config --global color.ui true
+git config --global credential.helper 'cache --timeout=3600'
+git commit fichero --no-verify //si da error de 
+
+gedit README.md
+git status
+git diff README.md
+-------------------------------
+
+git add README.md //añade al indice
+git comit README.md  -m "comentario"// pasa al repositorio local
+git push         /sincroniza con el repositorio de internet
+
+git pull //descargar cambios desde repositorio internet
+
+---------------ramas
+git branch //muestra las ramas
+git checkout nombre_rama //cambia de rama (-b "nombre" crea una rama nueva y te cambia a ella)
+git merge //fusiona las ramas
+
+
+
+------colaboraores
+
+añadir colaborador
+git clone
+modificar ficher add commit push
+
+git checkput -b nuevo origin/nuevo
+
+git push origin/nuevo //hace un push de la rama indicada
+
+-------markdown
+
